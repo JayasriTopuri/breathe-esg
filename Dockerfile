@@ -2,13 +2,13 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY breathe_esg/requirements.txt .
+COPY breathe_esg/requirements.txt /app/requirements.txt
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
-COPY breathe_esg/ .
+COPY breathe_esg/ /app/
 
-ENV DJANGO_SETTINGS_MODULE=breathe_esg.settings
+RUN python manage.py collectstatic --noinput --settings=breathe_esg.settings
 
 EXPOSE 8000
 
