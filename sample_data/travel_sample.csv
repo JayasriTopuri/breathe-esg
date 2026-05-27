@@ -1,0 +1,11 @@
+Report ID,Traveler Name,Expense Type,Travel Date,Origin,Destination,Amount,Currency,Vendor,Nights
+TR-2026-001,Rahul Sharma,Air,05/01/2026,DEL,BOM,8500,INR,IndiGo,
+TR-2026-002,Priya Patel,Hotel,05/01/2026,BOM,,4200,INR,Marriott,2
+TR-2026-003,Rahul Sharma,Air,10/01/2026,BOM,DEL,7800,INR,Air India,
+TR-2026-004,Amit Kumar,Air,12/01/2026,BLR,HYD,5500,INR,SpiceJet,
+TR-2026-005,Amit Kumar,Hotel,12/01/2026,HYD,,3800,INR,Taj Hotels,1
+TR-2026-006,Sneha Reddy,Air,15/01/2026,HYD,DEL,9200,INR,IndiGo,
+TR-2026-007,Sneha Reddy,Car,15/01/2026,DEL,,1200,INR,Uber,
+TR-2026-008,Rahul Sharma,Air,20/01/2026,DEL,LHR,45000,INR,Air India,
+TR-2026-009,Priya Patel,Air,22/01/2026,BOM,DXB,28000,INR,Emirates,
+TR-2026-010,Amit Kumar,Train,25/01/2026,BLR,MAA,1800,INR,IRCTC,
