@@ -8,8 +8,6 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY breathe_esg/ /app/
 
-RUN python manage.py collectstatic --noinput --settings=breathe_esg.settings
-
 EXPOSE 8000
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
