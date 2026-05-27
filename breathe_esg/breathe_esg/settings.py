@@ -92,3 +92,4 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ],
 }
+CSRF_TRUSTED_ORIGINS = ['https://breathe-esg-production-4e67.up.railway.app']
