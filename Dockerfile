@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY breathe_esg/ .
 
-RUN python manage.py collectstatic --noinput
+ENV DJANGO_SETTINGS_MODULE=breathe_esg.settings
 
 EXPOSE 8000
 
